@@ -1,0 +1,81 @@
+﻿@model autohaus.Models.KundenBenutzer
+
+@{
+    ViewBag.Title = "Register";
+}
+<link rel="stylesheet" href="~/css/register.css" type="text/css">
+
+<div class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                    <div class="card-front">
+                        <div class="center-wrap">
+                            <div class="section text-center">
+                                <form asp-action="Register">
+                                    <h4 class="mb-4 pb-3">Register</h4>
+                                    <div class="form-inputs" style="display:flex; flex-direction:row; justify-content:center; gap:30px;">
+                                        <div class="left-container">
+                                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                            <div class="form-group">
+                                                <label asp-for="Benutzer.Benutzername" class="control-label"></label>
+                                                <input asp-for="Benutzer.Benutzername" class="form-control" />
+                                                <span asp-validation-for="Benutzer.Benutzername" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Benutzer.Passwort" class="control-label"></label>
+                                                <input asp-for="Benutzer.Passwort" type="password" class="form-control" />
+                                                <span asp-validation-for="Benutzer.Passwort" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Vorname" class="control-label"></label>
+                                                <input asp-for="Kunden.Vorname" class="form-control" />
+                                                <span asp-validation-for="Kunden.Vorname" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Nachname" class="control-label"></label>
+                                                <input asp-for="Kunden.Nachname" class="form-control" />
+                                                <span asp-validation-for="Kunden.Nachname" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="right-container">
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Email" class="control-label"></label>
+                                                <input asp-for="Kunden.Email" class="form-control" />
+                                                <span asp-validation-for="Kunden.Email" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Telefon" class="control-label"></label>
+                                                <input asp-for="Kunden.Telefon" class="form-control" />
+                                                <span asp-validation-for="Kunden.Telefon" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Strasse" class="control-label"></label>
+                                                <input asp-for="Kunden.Strasse" class="form-control" />
+                                                <span asp-validation-for="Kunden.Strasse" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Plz" class="control-label"></label>
+                                                <input asp-for="Kunden.Plz" class="form-control" />
+                                                <span asp-validation-for="Kunden.Plz" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Kunden.Ort" class="control-label"></label>
+                                                <input asp-for="Kunden.Ort" class="form-control" />
+                                                <span asp-validation-for="Kunden.Ort" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Register" class="btn btn-primary" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

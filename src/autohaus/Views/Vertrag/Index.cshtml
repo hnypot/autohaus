@@ -1,0 +1,68 @@
+﻿@model IEnumerable<autohaus.Models.Vertrag>
+
+@{
+    ViewData["Title"] = "Vertragsliste";
+}
+
+<h1>Vertragsliste</h1>
+
+<p>
+    <a asp-action="Create">Neuen Vertrag erstellen</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Vertragnummer)
+            </th>
+            <th>
+                Käufer
+            </th>
+            <th>
+                Auto
+            </th>
+            <th>
+                Anmerkung
+            </th>
+            <th>
+                Kaufdatum
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gueltig)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Vertragnummer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Benutzer.Benutzername)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Markt.Titel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Beschreibung)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Erstellungsdatum)
+                </td>
+                <td>
+                    @if (item.Gueltig == true) {
+                        <txt>Ja</txt>
+                    } else {
+                        <txt>Nein</txt>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Vertragnummer">Editieren</a> |
+                    <a asp-action="Details" asp-route-id="@item.Vertragnummer">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Vertragnummer">Löschen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

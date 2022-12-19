@@ -1,0 +1,43 @@
+﻿@model autohaus.Models.Vertrag
+
+@{
+    ViewData["Title"] = "Neuen Vertrag Erstellen";
+}
+
+<h1>Neuen Vertrag Erstellen</h1>
+
+<h4>Vertrag</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MarktId" class="control-label"></label>
+                <select asp-for="MarktId" class ="form-control" asp-items="ViewBag.MarktId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="BenutzerId" class="control-label"></label>
+                <select asp-for="BenutzerId" class="form-control" asp-items="ViewBag.BenutzerId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Beschreibung" class="control-label"></label>
+                <input asp-for="Beschreibung" class="form-control" />
+                <span asp-validation-for="Beschreibung" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Erstellungsdatum" class="control-label"></label>
+                <input asp-for="Erstellungsdatum" class="form-control" />
+                <span asp-validation-for="Erstellungsdatum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Zurück zur Liste</a>
+</div>
+

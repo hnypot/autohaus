@@ -1,0 +1,60 @@
+﻿@model IEnumerable<autohaus.Models.Markt>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Markt</h1>
+
+@if (User.IsInRole("Admin")) {
+    <p>
+        <a asp-action="Create">Neues Auto</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Erstellungsdatum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verkauft)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                @if (!item.Verkauft) {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preis)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Erstellungsdatum)
+                    </td>
+                    @if (item.Verkauft == true) {
+                        <td>Ja</td>
+                    } else {
+                        <td>Nein</td>
+                    }
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        @if (User.IsInRole("Admin")) {
+                            <txt>|</txt> <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <txt>|</txt> <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        }
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

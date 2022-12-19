@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = autohaus
+build_property.RootNamespace = autohaus
+build_property.ProjectDir = C:\Users\Administrator\Documents\GitHub\modul-133-alperen-dev\autohaus\autohaus\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Administrator\Documents\GitHub\modul-133-alperen-dev\autohaus\autohaus
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Benutzer/Denied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVudXR6ZXJcRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Benutzer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVudXR6ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Benutzer/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVudXR6ZXJcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Benutzer/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVudXR6ZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Kunden/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Kunden/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVuXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Kunden/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVuXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Kunden/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Kunden/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Markt/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Markt/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Markt/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Markt/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Markt/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Vertrag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVydHJhZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Vertrag/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVydHJhZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Vertrag/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVydHJhZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Vertrag/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVydHJhZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Vertrag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVydHJhZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/modul-133-alperen-dev/autohaus/autohaus/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r2rxy911ra

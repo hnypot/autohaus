@@ -1,0 +1,45 @@
+﻿@model autohaus.Models.Vertrag
+
+@{
+    ViewData["Title"] = "Löschen";
+}
+
+<h1>Vertrag Löschen</h1>
+
+<h3>Bist du dir sicher, dass du diesen Vertrag löschen möchtest?</h3>
+<div>
+    <h4>Vertrag</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Beschreibung)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Beschreibung)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Erstellungsdatum)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Erstellungsdatum)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Benutzer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Benutzer.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markt.Id)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Vertragnummer" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Zurück zur Liste</a>
+    </form>
+</div>

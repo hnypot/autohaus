@@ -1,0 +1,38 @@
+﻿@model autohaus.Models.Benutzer
+
+@{
+    ViewBag.Title = "Login";
+}
+<link rel="stylesheet" href="~/css/login.css" type="text/css">
+
+<div class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                    <div class="card-front">
+                        <div class="center-wrap">
+                            <div class="section text-center">
+                                <h4 class="mb-4 pb-3">Login</h4>
+                                @using (Html.BeginForm("Login", "Benutzer", FormMethod.Post)) {
+                                    @Html.AntiForgeryToken()
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.Benutzername)
+                                        @Html.TextBoxFor(m => m.Benutzername, "", new { @class = "form-control", @placeholder = "Benutzername" })
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        @Html.LabelFor(m => m.Passwort)
+                                        @Html.PasswordFor(m => m.Passwort, new { @class = "form-control", @placeholder = "Passwort" })
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="btn mt-4" name="submit" value="Login"/>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

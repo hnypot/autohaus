@@ -1,0 +1,54 @@
+﻿@model autohaus.Models.Markt
+@using autohaus.Models
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Markt</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Beschreibung)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Beschreibung)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Preis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Preis)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Erstellungsdatum)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Erstellungsdatum)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Verkauft)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Verkauft)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (User.IsInRole("Admin")) {
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Editieren</a> <txt>|</txt>
+    }
+    @if (!Model.Verkauft && User.IsInRole("Kunden")) {
+        <a asp-action="Buy" asp-route-id="@Model?.Id">Kaufen</a> <txt>|</txt>
+    }
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: #1f2029;
+}
+
+* {
+    color: #c4c3ca;
+}
+
+.signedIn {
+    float: right;
+}
+
+.newItem {
+    padding-bottom: 2.5%;
+    float: right;
+}
