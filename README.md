@@ -1,10 +1,10 @@
 # autohaus
-## This is a WebApp written in ASP.NET EF6 and with the help of SQL Server. "autohaus" is the german word for car dealership.
+## This is a WebApp written in ASP.NET EF6 with Microsoft's SQL Server.
 
-Initially, this was/is a school project for Modularbeit M133. The pushes and commits can be viewed in the GitHub Classroom repo for this project, which is currently private. Here, you can study my code or even improve it, as long as you follow the rules in the license.
+Originally, this was a school project for the module [M133](https://www.modulbaukasten.ch/module/133/3/de-DE?title=Web-Applikation-mit-Session-Handling-realisieren). The commits of this project can be viewed in the GitHub Classroom, but which is now private. You can analyse/view the code here as you want.
 
-Please read the License before doing anything with the code.
+💡<i>autohaus</i> is the german word for "car dealership".
 
-Thank you!
+Thank you for visiting!
 
 Alperen Yilmaz, 2022
